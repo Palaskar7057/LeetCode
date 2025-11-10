@@ -22,7 +22,7 @@ class Solution {
     nums-=10;
     }
     else if(s.charAt(i)=='X'){
-    nums-=10;
+    nums+=10;
     }else if(s.charAt(i)=='V'){
      nums+=5;
     }else if(s.charAt(i)=='I' && i+1<s.length()&&s.charAt(i+1)=='V'){
@@ -36,4 +36,5 @@ class Solution {
     }
     return nums;   
     }
+
 }
